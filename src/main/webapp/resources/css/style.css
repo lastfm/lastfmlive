@@ -1,0 +1,23 @@
+body {background-color:black;color:white;font-family:Ubuntu, sans-serif}
+#columnContainer { margin-left:auto; margin-right: auto; width:100%;}
+.column {background-color:#d51007; margin-left:1%; float:left; width:32%}
+.columnContent {background-color:#101010; font-size:1.4em; padding:10px;}
+table { border-spacing:0;width:100%; }
+tr.nrm { background-color:#202020; color:#FFFFFF;}
+tr.alt { background-color:#101010; color:#FFFFFF;}
+td.display { padding:2px; border:0px; font-size:1.3em;}
+td.dj {font-size:0.9em; }
+#lastfmBadge {position:absolute;bottom:30px; right:30px; width:300px;height:89px; background: url(/lastfmlive/resources/images/lastfm_logo.png) top left no-repeat;}
+#lastfmBadge span {display:none;}
+#contentPane { max-width:600px; margin-left:auto; margin-right:auto; border: 2px solid #D51007; background:#202020; clear:both; padding-bottom:10px; }
+#entryForm { max-width:500px; margin-left:auto; margin-right:auto; padding:10px; }
+.tweet {height:70px; font-size:1em;}
+.rowImage {height:60px;}
+.imageCell {width:70px;height:70px;overflow:clip;text-align:center;}
+.tag {font-size:0.7em; background-color:#D51007;margin-left:5px;}
+.tagbox {float:right;}
+.tagview {background-color:#101010;line-height:200%; padding-top:10px;padding-bottom:10px;text-align:center;}
+.djColumnHeader {text-align:center; font-weight:bold; padding:5px;margin-top:5px;}
+em.twitterUser {color:#999999}
+em.twitterUser:before {content:"@";}
+h1 {text-align:center;}
